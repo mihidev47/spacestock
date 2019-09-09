@@ -1,0 +1,11 @@
+rdbms:
+  - name: koki_db
+    driver: mysql
+    host: localhost
+    port: 3306
+    username: root
+    password: 
+    database: spacestock
+    max_idle_connection: 10      # optional, set to 10 if unset
+    max_open_connection: 10      # optional, set to 10 if unset
+    max_connection_lifetime: 1   # seconds, optional, set to 1 second if unset

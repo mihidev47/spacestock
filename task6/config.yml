@@ -1,0 +1,26 @@
+server:
+  mode: development
+  port: "8081"
+  base_url: /v1
+  default_lat: ''
+  default_lng: ''
+  template_path: /Users/mz/Documents/koki-api/templates/sss
+
+auth:
+  dash_api_key: admin
+  jwt_key: koki-id
+  jwt_lifetime: 2880 # in minutes
+  jwt_audience: KOKi Middleware
+  jwt_issuer: KOKi Security Authority
+  client_secret: secret
+  email_verification_url: koki.id/auth/email/verify?v=%s&t=%d # Must contains exact query parameters
+  email_verification_redirect: localhost:8000/23232
+
+logger:
+  level: debug
+
+base_url:
+  avatar: /base/url/to/avatars/
+  banner: /base/url/to/banners/
+  chef_cover: /base/url/to/chef-covers/
+  menu: /base/url/to/menus/

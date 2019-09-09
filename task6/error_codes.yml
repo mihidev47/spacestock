@@ -1,0 +1,510 @@
+# Generic Error Codes
+400:
+  status: 400
+  code: 400
+  message: Bad request.
+
+401:
+  status: 401
+  code: 401
+  message: Unauthorized.
+
+404:
+  status: 404
+  code: 404
+  message: Not Found.
+
+405:
+  status: 405
+  code: 405
+  message: Method Not Allowed.
+
+500:
+  status: 500
+  code: 500
+  message: Internal Server Error. Please contact administrator.
+
+# Generic Authentication Error Codes
+499:
+  status: 401
+  code: 499
+  message: Token Expired
+
+498:
+  status: 401
+  code: 498
+  message: User Not Found
+
+497:
+  status: 401
+  code: 497
+  message: User is Banned
+
+# App Error Codes
+-1000:
+  status: 400
+  code: -1000
+  message: Email or Phone No is already registered.
+
+-1001:
+  status: 400
+  code: -1001
+  message: Invalid credentials.
+
+-1002:
+  status: 400
+  code: -1002
+  message: User not found.
+
+-1003:
+  status: 400
+  code: -1003
+  message: Incomplete request body.
+
+-1004:
+  status: 400
+  code: -1004
+  message: Email is already registered.
+
+-1005:
+  status: 400
+  code: -1005
+  message: File too big.
+
+-1006:
+  status: 400
+  code: -1006
+  message: Invalid image file type.
+
+-1007:
+  status: 400
+  code: -1007
+  message: Invalid password.
+
+-1008:
+  status: 400
+  code: -1008
+  message: User is not verified.
+
+-1009:
+  status: 400
+  code: -1009
+  message: Birthday cannot be unset.
+
+-1010:
+  status: 400
+  code: -1010
+  message: Gender cannot be unset.
+
+-1011:
+  status: 400
+  code: -1011
+  message: User is banned.
+
+-1012:
+  status: 400
+  code: -1012
+  message: District not found.
+
+-1013:
+  status: 400
+  code: -1013
+  message: Type not found.
+
+-1014:
+  status: 400
+  code: -1014
+  message: User has been registered as a KOKi.
+
+-1015:
+  status: 400
+  code: -1015
+  message: Invalid phone number.
+
+-1016:
+  status: 400
+  code: -1016
+  message: Error Koko Sepeda/Motor Not Approved
+
+-1017:
+  status: 400
+  code: -1017
+  message: Phone No is already registered.
+
+-1018:
+  status: 400
+  code: -1018
+  message: Invalid verification token.
+
+-1019:
+  status: 400
+  code: -1019
+  message: Wrong verification token.
+
+-1020:
+  status: 400
+  code: -1020
+  message: Phone No is already registered to other user.
+
+-1021:
+  status: 400
+  code: -1021
+  message: Update registrant application is not allowed.
+
+-1023:
+  status: 400
+  code: -1023
+  message: Failed to upload KOKO Kaki documents.
+
+-1024:
+  status: 400
+  code: -1024
+  message: No file uploaded.
+
+-1025:
+  status: 400
+  code: -1025
+  message: Registrant application not found.
+
+-1026:
+  status: 400
+  code: -1026
+  message: Device has not been activated for logged user.
+
+-1027:
+  status: 400
+  code: -1027
+  message: Device is registered to other user.
+
+-1028:
+  status: 400
+  code: -1028
+  message: Menu is suspended. Please contact Administrator.
+
+-1029:
+  status: 400
+  code: -1029
+  message: Requested courier mode is not yet upgraded.
+
+-1030:
+  status: 400
+  code: -1030
+  message: Courier vehicle register is not allowed.
+
+-1130:
+  status: 400
+  code: -1130
+  message: Verifikasi gagal karena sms_request_id tidak ditemukan atau sudah terverifikasi.
+
+-1131:
+  status: 400
+  code: -1131
+  message: Verifikasi gagal karena sms_code (OTP CODE) salah.
+
+-1132:
+  status: 400
+  code: -1132
+  message: Verifikasi gagal karena terlalu banyak mencoba sms_code (maks 3), harap meminta sms otp code baru.
+
+-1033:
+  status: 400
+  code: -1033
+  message: Menu not found.
+
+-1034:
+  status: 400
+  code: -1034
+  message: Menu does not belongs to Chef.
+
+-1035:
+  status: 400
+  code: -1035
+  message: User has not registered as a Chef.
+
+-1036:
+  status: 400
+  code: -1036
+  message: Chef not found.
+
+-1037:
+  status: 400
+  code: -1037
+  message: Menu image count exceed limit.
+
+-1038:
+  status: 400
+  code: -1038
+  message: Menu must have at least 1 image.
+
+-1039:
+  status: 400
+  code: -1039
+  message: Menu publish status must be Drafted in order to update.
+
+-1040:
+  status: 400
+  code: -1040
+  message: Menu publish status must be Drafted in order to delete.
+
+-1041:
+  status: 400
+  code: -1041
+  message: Self-follow is not allowed.
+
+-1042:
+  status: 400
+  code: -1042
+  message: User is already verified.
+
+-1043:
+  status: 400
+  code: -1043
+  message: Merchant is suspended.
+
+-1044:
+  status: 400
+  code: -1044
+  message: Wallet is exist.
+
+-1045:
+  status: 400
+  code: -1045
+  message: Wallet not found.
+
+-1046:
+  status: 400
+  code: -1046
+  message: Customer and Merchant is the same person.
+
+-1047:
+  status: 400
+  code: -1047
+  message: Courier not found.
+
+-1048:
+  status: 400
+  code: -1048
+  message: Unable to change Bid status. Courier is busy.
+
+-1049:
+  status: 400
+  code: -1049
+  message: Delivery Request not found.
+
+-1050:
+  status: 400
+  code: -1050
+  message: Order not found.
+
+-1051:
+  status: 400
+  code: -1051
+  message: Unable to Accept delivery due to status changes.
+
+-1052:
+  status: 400
+  code: -1052
+  message: Unable to Accept order due to status changes.
+
+-1053:
+  status: 400
+  code: -1053
+  message: No Courier accept the delivery request.
+
+-1054:
+  status: 400
+  code: -1054
+  message: Delivery request has no logs.
+
+-1055:
+  status: 400
+  code: -1055
+  message: Valid Courier Vehicle not found.
+
+-1056:
+  status: 400
+  code: -1056
+  message: Vehicle Type not found.
+
+-1057:
+  status: 400
+  code: -1057
+  message: Courier is not yet notified or has accept this order.
+
+-1058:
+  status: 400
+  code: -1058
+  message: Delivery not found.
+
+-1059:
+  status: 400
+  code: -1059
+  message: Order has been settled.
+
+-1060:
+  status: 400
+  code: -1060
+  message: User not allowed to update order.
+
+-1061:
+  status: 400
+  code: -1061
+  message: Courier does not belongs to this Delivery.
+
+-1062:
+  status: 400
+  code: -1062
+  message: Merchant is not allowed to make changes to this Order.
+
+-1063:
+  status: 400
+  code: -1063
+  message: Invalid Order status.
+
+-1064:
+  status: 400
+  code: -1064
+  message: Invalid Delivery status.
+
+-1065:
+  status: 400
+  code: -1065
+  message: Unsupported vehicle type.
+
+# Order
+-2000:
+  status: 400
+  code: -2000
+  message: Customer does not belong to this Order.
+
+-2001:
+  status: 400
+  code: -2001
+  message: Order has been reviewed.
+
+-2002:
+  status: 400
+  code: -2002
+  message: Unable to Reject order due to status changes.
+
+-2003:
+  status: 400
+  code: -2003
+  message: Merchant does not belongs to requested order.
+
+-2004:
+  status: 400
+  code: -2004
+  message: No order is available for settlement.
+
+# Review
+-2200:
+  status: 400
+  code: -2200
+  message: Invalid reviewed items.
+
+-2201:
+  status: 400
+  code: -2201
+  message: Reviewed items not found in order.
+
+-2202:
+  status: 400
+  code: -2202
+  message: Invalid rating input.
+
+-2203:
+  status: 400
+  code: -2203
+  message: Reviewed items for this order not found.
+
+# Wallet
+-2300:
+  status: 400
+  code: -2300
+  message: Insufficient balance.
+
+-2301:
+  status: 400
+  code: -2301
+  message: Insufficient pending balance.
+
+-2302:
+  status: 400
+  code: -2302
+  message: Referenced transaction not found.
+
+-2303:
+  status: 400
+  code: -2303
+  message: Payment method is not supported.
+
+-2304:
+  status: 400
+  code: -2304
+  message: Wallet Transfer not found.
+
+-2305:
+  status: 400
+  code: -2305
+  message: Top Up Payment Code does not belongs to this wallet.
+
+-2306:
+  status: 400
+  code: -2306
+  message: Requested Transaction is not a Top Up
+
+-2307:
+  status: 400
+  code: -2307
+  message: Top Up Payment has been Settled
+
+# Bank Account
+-2400:
+  status: 400
+  code: -2400
+  message: Bank Account not found
+
+# Delivery
+-2500:
+  status: 400
+  code: -2000
+  message: No delivery is available for settlement
+
+-2501:
+  status: 400
+  code: -2501
+  message: Location not supported
+
+-2502:
+  status: 400
+  code: -2502
+  message: Delivery Distance is not covered by Couriers
+
+# Auth
+-2600:
+  status: 400
+  code: -2600
+  message: Email has not yet registered and linked to a social account
+
+# Dish
+-2700:
+  status: 400
+  code: -2700
+  message: dish primary image is required
+
+-2701:
+  status: 400
+  code: -2701
+  message: stock must be set more than 0
+
+-2702:
+  status: 400
+  code: -2701
+  message: masa berlaku otp telah berakhir, coba untuk meminta kembali.
+
+-2702:
+  status: 400
+  code: -2701
+  message: masa berlaku otp telah berakhir, coba untuk meminta kembali.
+
